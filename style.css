@@ -1,0 +1,52 @@
+
+.image {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+
+}
+
+.column {
+  float: left;
+  width: 32.5%;
+  padding: 5px;
+}
+
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+body {
+	background-color: #FFFFFF;
+	color: #000000;
+	font-family: sans-serif;
+	font-size: 25px;
+	text-align: left;
+}
+
+h1 {
+	text-align: center;
+}
+
+p {
+	font-family: monospace;
+}
+
+.flexParent {
+	background-color: #D4AC0D;
+	font-weight: bold;
+}
+
+p:first-child {
+background-color: white;
+font-weight: normal;
+}
+
+p::first-letter {
+  font-size: 200%;
+  color: #1E8449;
+}
